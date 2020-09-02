@@ -1,0 +1,115 @@
+<html>
+<head>
+<style>
+#outerbox{
+width:1520px; overflow:hidden;
+}
+#slidebox{
+height:400px; width:6080px; animation-name:k;
+animation-duration:20s; position:relative;animation-iteration-count: 25;
+align: center;
+}
+#slidebox img{
+float:left;
+}
+@keyframes k{
+0%{
+left:0px;
+}
+25%{left:-1520px;}
+45%{left:-1520px;}
+50%{left:-3040px;}
+70%{left:-3040px;}
+75%{left:-4560px;}
+95%{left:-4560px;}
+100%{left:-6080px;}
+}
+.deal{
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid lightgrey;
+}
+h1.a{
+	position: relative;
+	bottom: 10px;
+}
+button.a{
+	background-color: #22AAF0;
+	color: white;
+	position: relative;
+	left: 1350px;
+	bottom: 75px;
+	height: 40px;
+	width: 100px;
+}
+.dealimg{
+display: inline;
+height: 300px;
+width: 100%;
+}
+#deal1{
+	border: 15px solid white;
+}
+.d1{
+	float: left;
+	height: 300px;
+	width: 16%;
+	text-align: center;
+}
+.d2{
+	float: right;
+	height: 300px;
+	width: 16%;
+}
+#d1{
+	text-decoration: none;
+	color: black;
+}
+.recommend{
+height: 50px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid lightgrey;	
+}
+h1.b{
+	position: relative;
+	bottom: 10px;
+}
+button.b{
+	background-color: #22AAF0;
+	color: white;
+	position: relative;
+	left: 1350px;
+	bottom: 75px;
+	height: 40px;
+	width: 100px;
+}
+</style>
+</head>
+<body>
+<div id="outerbox">
+<div id="slidebox">
+<img src="flogo.jpg" style="height:400px; width:1520px;">
+<img src="cart.jpg" style="height:400px; width:1520px;">
+<img src="flogo.jpg" style="height:400px; width:1520px;">
+<img src="cart.jpg" style="height:400px; width:1520px;"></div>
+</div>
+<div class="deal"><h1 class="a">Deal of the day</h1>
+<button class="a">VIEW ALL</button>
+</div>
+<div class="dealimg">
+	<div class="d1"><img id="deal1" src="flogo.jpg" style="height:200px; width:100%;">
+	<a href="#" id="d1">Top budget laptops<br/>From 18,000<br>Dell,HP &more</a></div>
+	<div class="d1"><img id="deal1"src="cart.jpg" style="height:200px; width:100%;"></div>
+	<div class="d1"><img id="deal1" src="flogo.jpg" style="height:200px; width:100%;"></div>
+	<div class="d1"><img id="deal1"src="cart.jpg" style="height:200px; width:100%;"></div>
+	<div class="d1"><img id="deal1" src="flogo.jpg" style="height:200px; width:100%;"></div>
+	<div class="d1"><img id="deal1"src="cart.jpg" style="height:200px; width:100%;"></div>
+</div>
+<div class="recommend"><h1 class="b">Deal of the day</h1>
+<button class="b">VIEW ALL</button>
+</div>
+
+</body>
+</html>

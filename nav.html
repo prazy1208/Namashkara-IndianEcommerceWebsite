@@ -1,0 +1,129 @@
+<html>
+<head>
+<style type="text/css">
+div.nav{
+	height: 60px;
+	background-color: #A9C6D5;
+	position: sticky;
+}
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  border: #0091B5;
+}
+
+li {
+  float: left;
+  display: block;
+  padding-left: 84px;
+  padding-right: 84px;
+  padding-top: 20px;
+  text-align: center; 
+  border: #0091B5;
+}
+li:hover .dropdown-content{
+	display: block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #0091B5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown-content:hover .dropdown-content2{
+	display: block;
+}
+.dropdown-content2{
+  display: none;
+  position: relative;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+	<div class="nav">
+		<ul>
+             <li>Fashion
+             	<div class="dropdown-content">
+                      <a href="#">Women
+                          <div class="dropdown-content2">
+                                <a href="#">Western wear</a>
+                                <a href="#">Ethnic wear</a>
+                                <a href="#">Footwear</a>
+                           </div> 
+                      </a>
+                      <a href="#">Men
+                         <div class="dropdown-content2">
+                                <a href="#">Formals</a>
+                                <a href="#">Informals</a>
+                                <a href="#">Footwear</a>
+                           </div> 
+                      </a>
+                      <a href="#">Kids
+                          <div class="dropdown-content2">
+                                <a href="#">Clothes</a>
+                                <a href="#">Toys</a>
+                                <a href="#">Footwear</a>
+                           </div> 
+                      </a>
+                </div>
+             </li>
+             <li>Electronics
+                 <div class="dropdown-content">
+                      <a href="#">Mobiles</a>
+                      <a href="#">Laptop & Computer</a>
+                </div>
+             </li>    
+             <li>Homedecor
+             	<div class="dropdown-content">
+                      <a href="#">Interior decor and furnishings</a>
+                </div>
+             </li>
+             <li>TV & Appliances
+                 <div class="dropdown-content">
+                      <a href="#">TV</a>
+                      <a href="#">Kitchen Appliances</a>
+                      <a href="#">Home Appliances</a>
+                </div>
+             </li>
+             <li>Pantry
+                 <div class="dropdown-content">
+                      <a href="#">Food Pantry</a>
+                      <a href="#">Cooking essentials</a>
+                      <a href="#">Snackes and Beverages</a>
+                </div>
+             </li>
+             <li>Sports and Books
+                 <div class="dropdown-content">
+                      <a href="#">Sports product</a>
+                      <a href="#">Books</a>
+                </div>
+             </li>
+</ul>
+	</div>
+</body>
+</html>
